@@ -1,11 +1,20 @@
+# Environment / secrets
 .env
 .env.*
 !.env.example
 
+# Dependencies
 /vendor/
+
+# User uploaded files
 /uploads/
 
+# Logs
 *.log
 
+# Operating system files
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
